@@ -1,12 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import  './Components/Form'
-import SearchForm from './Components/Form';
+import MainPage from './Components/MainPage/MainPage';
+
 
 function App() {
   return (
     <div className="App">
-      <Form/>
+      <MainPage/>
     </div>
   );
 }

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,200,400,700,900&display=swap');
+.box{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top:60px;
+    border-radius:10px;
+    background-color: rgb(21, 22, 34);
+    color: whitesmoke;
+    width: 85%;
+    max-width: 675px;
+    min-height: 200px;
+    font-family:  Montserrat, sans-serif;
+}
+
+.city{
+    font-size:1.7rem;
+    margin-top: 10px; margin-left: 20px;
+}
+
+.date{
+    font-size: 0.9rem;
+    margin-top: 10px; margin-left: 20px;
+}
+
+.temprature {
+    font-size: 4rem;
+    margin-top: 10px; margin-left: 20px;
+    font-weight: bold;
+}
+
+.atmosphere {
+    font-size: 1.2em;
+    margin-top: 10px; margin-left: 20px;
+}
+
+.humidity {
+    font-size: 1.2em;
+    margin-top: 10px; margin-left: 20px;
+}
+
+.wind {
+    font-size: 1.2em;
+    margin-top: 10px; margin-left: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.maxTemp {
+    font-size: 1.2em;
+    margin-top: 10px; margin-left: 20px; margin-bottom: 15px;
+}
+
+.minTemp {
+    font-size: 1.2em;
+    margin-top: 10px; margin-left: 10px;
+}
+
+.windVal {
+    font-size: 1.2em;
+    margin-top: 10px; margin-left: 67px; margin-bottom: 7px;
+}
+
+.humidityVal{
+    font-size: 1.2em;
+    margin-top: 10px; margin-left: 30px; margin-bottom: 7px;
+}
+
+img{
+    margin-left: 40px;
+}

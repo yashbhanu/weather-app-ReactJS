@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700,900&display=swap');
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top:60px;
+    border-radius:10px;
+    background-color: rgb(21, 22, 34);
+    color: whitesmoke;
+    font-family: Montserrat, sans-serif;
+    width: 85%;
+    max-width: 675px;
+    min-height: 300px;
+}
+
+.notFound{
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display : flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.head{
+    margin-top:50px;
+    color: white;
+    font-weight: 200;
+    font-family: Montserrat, sans-serif;
+}
+
+span {
+    color: rgb(78, 169, 235);
+    font-weight: 600;
+}
